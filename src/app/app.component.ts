@@ -15,7 +15,7 @@ export class AppComponent {
   instructionsString;
 
   constructor(private serviceWorker: ServiceWorkerService) {
-    // serviceWorker.startServiceWorker();
+    serviceWorker.startServiceWorker();
   }
   
 

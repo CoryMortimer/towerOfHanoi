@@ -2,13 +2,16 @@ var CACHE_NAME = 'tower-of-hanoi-cache-v1';
 var urlsToCache = [
   // BOTH
   '/',
+  '/favicon.ico',
   // DEVELOPMENT
   '/styles.bundle.css',
   '/inline.bundle.js',
   '/vendor.bundle.js',
   '/main.bundle.js',
-  '/favicon.ico'
   // PRODUCTION
+  'styles.cdd412ca690ab3315db3.bundle.css',
+  'inline.8a1a31feefeb02b84bfa.bundle.js',
+  'main.6970d88a1d5666d3086c.bundle.js'
 ];
 
 self.addEventListener('install', function(event) {
