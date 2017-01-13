@@ -2,7 +2,7 @@ var CACHE_NAME = 'tower-of-hanoi-cache-v1';
 var urlsToCache = [
   // BOTH
   '/',
-  '/favicon.ico',
+  // '/favicon.ico',
   // DEVELOPMENT
   // '/styles.bundle.css',
   // '/inline.bundle.js',
