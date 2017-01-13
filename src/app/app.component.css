@@ -1,0 +1,12 @@
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    flex-grow: 1;
+}

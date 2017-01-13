@@ -1,3 +1,23 @@
-<h1>
-  {{title}}
-</h1>
+<md-toolbar color="primary">
+  <span>{{title}}</span>
+</md-toolbar>
+<div class="container">
+  <div class="flex-item" style="text-align: center;">
+    <form (ngSubmit)="printTower()">
+      <md-input-container>
+        <input md-input placeholder="Pegs" name="pegs" type="number" min="1" [(ngModel)]="disks">
+      </md-input-container>
+      <button md-raised-button color="primary" type="submit">Calculate</button>
+    </form>
+  </div>
+</div>
+<div class="container" style="min-height: 65%;">
+
+  <div class="flex-item" *ngIf="instructionsString" style="min-height: 65%;">
+    <md-input-container style="width: 100%; height: 100%;">
+      <textarea md-input rows="10" style="resize: vertical; max-height: 60vh;" [ngModel]="instructionsString" readonly></textarea>
+    </md-input-container>
+  </div>
+    
+</div>
+
