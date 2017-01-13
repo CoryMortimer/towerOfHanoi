@@ -4,10 +4,10 @@ var urlsToCache = [
   '/',
   '/favicon.ico',
   // DEVELOPMENT
-  '/styles.bundle.css',
-  '/inline.bundle.js',
-  '/vendor.bundle.js',
-  '/main.bundle.js',
+  // '/styles.bundle.css',
+  // '/inline.bundle.js',
+  // '/vendor.bundle.js',
+  // '/main.bundle.js',
   // PRODUCTION
   'styles.cdd412ca690ab3315db3.bundle.css',
   'inline.8a1a31feefeb02b84bfa.bundle.js',
