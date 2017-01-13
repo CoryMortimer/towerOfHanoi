@@ -32,3 +32,7 @@ This app can work without an internet connection.
 1. Navigate to [https://corymortimer.github.io/towerOfHanoi/](https://corymortimer.github.io/towerOfHanoi/)
 1. Select options (3 dots in top right)
 1. Select "Add to Home screen"
+
+## Navigating the code
+
+All of the Tower of Hanoi logic can be found at src/app/app.component.ts
