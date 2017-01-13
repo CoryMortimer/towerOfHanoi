@@ -2,30 +2,33 @@
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+The project can be found at [https://corymortimer.github.io/towerOfHanoi/](https://corymortimer.github.io/towerOfHanoi/).
 
-## Code scaffolding
+## How to use
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+Enter the number of disks you would like to use and press "Calculate". A text area below will display the results. Select all and copy if you would like to extract the data.
 
-## Build
+## This app is a [Progressive Web App](https://developers.google.com/web/progressive-web-apps/)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+This app can work without an internet connection.
 
-## Running unit tests
+### To add app to your desktop (tested with Chrome on Mac)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Navigate to [https://corymortimer.github.io/towerOfHanoi/](https://corymortimer.github.io/towerOfHanoi/)
+1. Right click and select "Inspect"
+1. Click "Application"
+1. Click "Manifest" in the left pane
+1. Click "Add to homescreen" under "Identity"
+1. Click "Add" when prompted
 
-## Running end-to-end tests
+### To add app to your iPhone (Safari)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+1. Navigate to [https://corymortimer.github.io/towerOfHanoi/](https://corymortimer.github.io/towerOfHanoi/)
+1. Tap the Share button (the icon with an arrow going out of the square)
+1. Tap "Add to Home Screen"
 
-## Deploying to Github Pages
+### To add app to your Android device (Chrome)
 
-Run `ng github-pages:deploy` to deploy to Github Pages.
-
-## Further help
-
-To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+1. Navigate to [https://corymortimer.github.io/towerOfHanoi/](https://corymortimer.github.io/towerOfHanoi/)
+1. Select options (3 dots in top right)
+1. Select "Add to Home screen"
