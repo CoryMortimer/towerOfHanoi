@@ -1,6 +1,6 @@
 import { TowerOfHanoiPage } from './app.po';
 
-describe('tower-of-hanoi App', function() {
+describe('towerOfHanoi App', function() {
   let page: TowerOfHanoiPage;
 
   beforeEach(() => {

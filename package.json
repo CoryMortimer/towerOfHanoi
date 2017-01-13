@@ -1,5 +1,5 @@
 {
-  "name": "tower-of-hanoi",
+  "name": "towerOfHanoi",
   "version": "0.0.0",
   "license": "MIT",
   "angular-cli": {},
